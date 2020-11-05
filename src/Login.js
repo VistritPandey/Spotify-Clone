@@ -8,7 +8,7 @@ function Login() {
                 src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
                 alt=""
             />
-            <button>Login with Spotify</button>
+            <a>Login with Spotify</a>
         </div>
     )
 }
