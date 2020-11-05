@@ -3,11 +3,16 @@ const clientId = "4b13547d444649178e8211f401811a7e";
 
 const redirectUri = "http://localhost:3000/";
 const scopes = [
+  "streaming", 
+  "user-read-email", 
+  "user-read-private",
   "user-read-currently-playing",
   "user-read-recently-played",
   "user-read-playback-state",
   "user-top-read",
   "user-modify-playback-state",
+  "playlist-read-private",
+  "playlist-read-collaborative",
 ];
 export const getTokenFromResponse = () => {
   return window.location.hash
