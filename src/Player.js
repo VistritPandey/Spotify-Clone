@@ -1,9 +1,10 @@
 import React from 'react'
+import './Player.css'
 
 function Player() {
     return (
-        <div>
-            <h5>You are logged in</h5>
+        <div className='player'>
+            <p>You are logged in</p>
         </div>
     )
 }
