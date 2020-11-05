@@ -1,4 +1,6 @@
-# It's only working on localhost. To use it on your local device, delete the package-lock.json and then npm install. You also need to have a Premium account
+# Deployed at: https://vistrit-spotify.web.app/
+
+# ONLY WORKS ON SPOTIFY PREMIUM
 
 ## Available Scripts
 
