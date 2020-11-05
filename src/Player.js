@@ -1,10 +1,13 @@
 import React from 'react'
 import './Player.css'
+import Sidebar from './Sidebar'
 
 function Player() {
     return (
         <div className='player'>
-            <p>You are logged in</p>
+            <div className="player__body">
+                <Sidebar />
+            </div>
         </div>
     )
 }
