@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# It's only working on localhost. To use it on your local device, delete the package-lock.json and then npm install. You also need to have a Premium account
 
 ## Available Scripts
 
