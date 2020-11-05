@@ -7,7 +7,7 @@ import { getTokenFromResponse } from './spotify';
 const s = new SpotifyWebApi();
 
 function App() {
-  const [{ token }, dispatch] = useState();
+  const [ token, dispatch] = useState();
 
   useEffect(() => {
     
