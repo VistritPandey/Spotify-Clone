@@ -3,8 +3,8 @@ import './Body.css'
 
 function Body() {
     return (
-        <div>
-            <h1>I am the border</h1>
+        <div className='body'>
+            <h1>I am the body</h1>
         </div>
     )
 }
