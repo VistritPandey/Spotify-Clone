@@ -1,7 +1,7 @@
 import React from 'react'
-import './Border.css'
+import './Body.css'
 
-function Border() {
+function Body() {
     return (
         <div>
             <h1>I am the border</h1>
@@ -9,4 +9,4 @@ function Border() {
     )
 }
 
-export default Border
+export default Body
