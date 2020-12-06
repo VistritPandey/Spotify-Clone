@@ -1,14 +1,15 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import Player from "./Player";
-import Login from "./Login";
+import React, { useEffect } from "react";
 import SpotifyWebApi from "spotify-web-api-js";
+import { useStateValue } from "./StateProvider";
+import Player from "./Player";
 import { getTokenFromResponse } from "./spotify";
+import "./App.css";
+import Login from "./Login";
 
 const s = new SpotifyWebApi();
 
 function App() {
-  const [token, dispatch] = useState();
+  const [{ token }, dispatch] = useStateValue();
 
   useEffect(() => {
     const hash = getTokenFromResponse();
@@ -23,7 +24,7 @@ function App() {
         token: _token,
       });
 
-      s.getPlaylist().then((response) =>
+      s.getPlaylist("0WK1h17yxXTiAAN4RaU9Xb").then((response) =>
         dispatch({
           type: "SET_DISCOVER_WEEKLY",
           discover_weekly: response,
