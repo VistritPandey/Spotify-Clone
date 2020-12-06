@@ -1,7 +1,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 const clientId = "4b13547d444649178e8211f401811a7e";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://vistrit-spotify.web.app/";
 const scopes = [
   "user-read-playback-position",
   "user-read-email",

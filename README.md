@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Deployed at: https://vistrit-spotify.web.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ONLY WORKS ON SPOTIFY PREMIUM
 
 ## Available Scripts
 
