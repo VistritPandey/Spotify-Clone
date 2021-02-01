@@ -1,5 +1,5 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const clientId = "4b13547d444649178e8211f401811a7e";
+const clientId = "get your client id from spotify";
 
 const redirectUri = "https://vistrit-spotify.web.app/";
 const scopes = [
